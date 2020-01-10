@@ -1,3 +1,28 @@
+//laços de repetição//
+/* for
+var count;
+for(count = 0; count <= 5;count++ ) {
+    alert(count)
+};*/
+//data e hora
+var d = new Date();
+alert(d);
+//várias opçoes d.getDay(),d.getHours()
+/*
+var count = 0;
+while(count<5){
+    console.log(count);
+    count ++;
+}*/
+
+
+//condicionais//
+/*var idade = prompt("Qual Sua Idade?") //comando prompt exibe uma pergunta//
+if(idade >= 18){
+    alert('maior de idade')
+}else{
+    alert('menor de idade')
+}*/
 /*var nome =  'Junior Rijo';
 var idade = 29
 var idade2 = 10 
@@ -20,6 +45,6 @@ console.log(lista);*/
 /*var fruta = {nome: 'maça', cor:'vermelho'};
 console.log(fruta.nome);*/
 //lista de dicionários
-var frutas = [{nome: 'maça', cor:'vermelha'}, {nome:"limão", cor:"verde"}]
+/*var frutas = [{nome: 'maça', cor:'vermelha'}, {nome:"limão", cor:"verde"}]
 console.log(frutas);
-alert([1], nome);
+alert([1], nome);*/
