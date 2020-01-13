@@ -1,3 +1,26 @@
+//function
+/*function soma(n1, n2) {
+    return n1+n2;
+}
+function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome)
+}
+
+
+alert(soma(5,10));
+alert(setReplace('Vai Japão', "Japão", "Brasil"));*/
+function validaIdade(idade){
+    if(idade>=18) {
+        validar = true
+    }else {
+        validar = ('Você é menor de idade')
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
+
 //laços de repetição//
 /* for
 var count;
@@ -5,8 +28,8 @@ for(count = 0; count <= 5;count++ ) {
     alert(count)
 };*/
 //data e hora
-var d = new Date();
-alert(d);
+/*var d = new Date();
+alert(d);*/
 //várias opçoes d.getDay(),d.getHours()
 /*
 var count = 0;
