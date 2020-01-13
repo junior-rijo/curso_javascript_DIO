@@ -1,3 +1,33 @@
+function button(){
+  document.getElementById('agradecimento').innerHTML = "Obrigado";//usando html//
+}
+function redirecionar (){//adcionando a opção de no janela//
+    window.open("https://web.digitalinnovation.one/");
+    //window.location.href = "#"// permanece na mesma página
+}
+
+function trocar (elemento){//assim não precisa usar ID
+    //document.getElementById("trocar").innerHTML = "Teste de mouse"
+    //alert("trocando os textos")
+    elemento.innerHTML = "Obrigado por testar"
+}
+function voltar(elemento){
+    //document.getElementById('voltar').innerHTML = "Deu certo"
+    elemento.innerHTML = "saindo"
+}
+/*function button(){
+    alert("Teste de Botão")
+}*/
+
+function load()
+{
+    alert('Teste função onload')
+}
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+
 //function
 /*function soma(n1, n2) {
     return n1+n2;
@@ -9,7 +39,7 @@ function setReplace(frase, nome, novo_nome) {
 
 alert(soma(5,10));
 alert(setReplace('Vai Japão', "Japão", "Brasil"));*/
-function validaIdade(idade){
+/*function validaIdade(idade){
     if(idade>=18) {
         validar = true
     }else {
@@ -19,7 +49,7 @@ function validaIdade(idade){
 }
 
 var idade = prompt("Qual sua idade?");
-console.log(validaIdade(idade));
+console.log(validaIdade(idade));*/
 
 //laços de repetição//
 /* for
