@@ -1,4 +1,15 @@
-function button(){
+//curryng
+function soma(a) {
+    return function(b){
+        return a + b;
+    }
+}
+
+const soma2 = soma(2);
+
+console.log(soma2(2))
+console.log(soma2(5))
+/*function button(){
   document.getElementById('agradecimento').innerHTML = "Obrigado";//usando html//
 }
 function redirecionar (){//adcionando a opção de no janela//
@@ -19,13 +30,13 @@ function voltar(elemento){
     alert("Teste de Botão")
 }*/
 
-function load()
+/*function load()
 {
     alert('Teste função onload')
 }
 function funcaoChange(elemento){
     console.log(elemento.value)
-}
+}*/
 
 
 //function
