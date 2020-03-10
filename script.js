@@ -1,5 +1,63 @@
+
+
+
+
+
+
+/*Tipos de Variaveis//
+//retorna o tamano de uma string
+const textSize = 'Texto'.length;
+console.log(`Quantidade de Letras: ${textSize}`);
+// terorna um array quebrando a string por um delimitador
+const splittedText = 'Texto'.split('x');
+console.log('nArray com as posições separadas pelo delimitador:', splittedText);
+//busca um valor e substitui por outro
+const replacedText = 'Texto'.replace('Text', 'texT')
+console.log('\nSubstituição de  valor:', replacedText)
+//
+let underfinedVariable;
+console.log('Tipo de variável:', typeof underfinedVariable) 
+// boolean
+//true ou false
+//objects
+let user = {
+    name: 'Junnior'
+}
+console.log(user);
+//Alterando a propriedade de um obj
+user.name = "Outro Nome"
+user['name'] = 'Outro nome2'
+console.log(user);
+const prop = 'name'
+user[prop] = 'Outro nome3'
+console.log(user);
+function getProp(prop){
+    return user[prop]
+}
+console.log(user);
+//criando uma proprieda
+user.lastName = 'Rijo'
+
+console.log(user);
+
+/*Object.freeze(cria outro objeto a partir de um)*/
+//Object.seal(não cria e nem deleta apenas alterar)//
+
+//symboll
+
+//hbailita uma forma em que as propridades não sejam subescritas//
+/*const nameSymbol1= Symbol('name')
+const nameSymbol2 = Symbol('name')
+
+const user = {
+    [nameSymbol1]: 'Junior',
+    [nameSymbol2]: 'Outro nome',
+    lastName: 'Rijo'
+}
+console.log(user);
+
 //curryng
-function soma(a) {
+/*function soma(a) {
     return function(b){
         return a + b;
     }
@@ -9,6 +67,7 @@ const soma2 = soma(2);
 
 console.log(soma2(2))
 console.log(soma2(5))
+*/
 /*function button(){
   document.getElementById('agradecimento').innerHTML = "Obrigado";//usando html//
 }
