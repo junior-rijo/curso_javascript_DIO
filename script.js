@@ -1,9 +1,32 @@
+function fn() { //funções antes do ECS6
+    return 'code here'
+}
 
+const arrowFn = () => 'Code here';
+const arrowFn2 = () => {
+    //para mais de uma expressão
+    return 'Code here'
+}
 
+//Funções também são objetos
+fn.prop = 'Posso criar propriedades';
 
+console.log(fn());
+console.log(fn.prop);
 
+//Recener parâmentros
+const logValue = value => console.log(value)
+const logFnResult = fnParam =>console.log(fnParam());
 
+logFnResult(fn);
 
+// receber e retornar funções
+
+const controlFnExec = allowed => {
+    if (allowed) {
+        fnParam();
+    }
+}
 /*Tipos de Variaveis//
 //retorna o tamano de uma string
 const textSize = 'Texto'.length;
